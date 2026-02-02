@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "./globals.css";
+
+body {
+  overflow-x: hidden;
+}
+
+.mobile-safe-container {
+  max-width: 100%;
+  overflow-x: hidden;
+}
